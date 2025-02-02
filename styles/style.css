@@ -59,11 +59,14 @@ table {
     margin-top: 20px;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid #333;
 }
 
-th, td {
+th,
+td {
     padding: 10px;
     text-align: left;
 }
@@ -89,7 +92,8 @@ form label {
     margin-top: 10px;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     padding: 10px;
     margin-top: 5px;
     border: 1px solid #ccc;
@@ -109,3 +113,23 @@ form button {
 form button:hover {
     background-color: #555;
 }
+
+
+/*gallery specific*/
+.gallery{
+display:table;
+width:100%;
+height: max-content;
+margin-bottom: 100px;
+}
+.spots{
+  display: table-row;
+  width:100%;
+  height: 35%;
+}
+.spots > img{
+    width: 32%;
+    height: 100%;
+    margin-left: 1%;
+}
+
