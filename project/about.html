@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - Wanderlust Chronicles</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
+
+<body class="center_part">
     <header>
         <img src="images/logo.png" alt="Wanderlust Chronicles Logo" class="logo">
         <h1>About Us</h1>
@@ -29,12 +31,46 @@
 
         <section>
             <h2>Meet the Team</h2>
+          <div class="left_aligned_items " id="team_div">
             <ul>
-                <li>John Doe - Travel Enthusiast</li>
-                <li>Jane Smith - Photographer</li>
-                <li>Alice Johnson - Writer</li>
+                <li>Abd Al Rhman Kamal Al Rifaee - Travel Enthusiast</li>
+                <li>Eduardo Horstmann - Photographer</li>
+                <li>Yisak Metaferiya - Software Developer/ Engineer</li>
             </ul>
+          </div>
         </section>
+        <br><br>
+        <h2 style="color: blue;" class="tooltip">Recommended Videos <br> <span class="tooltipText">click on the details for respective city.</span></h2>
+        
+        <div class="travel_guide_vedio">
+        <aside>
+            <h2>Traveling in Paris</h2>
+            <details>
+        <iframe  width="1200" height="480"  src="https://www.youtube.com/embed/AQ6GmpMu5L8?si=McoxF9X1AVXYrcji"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </details>
+        </aside>
+        <aside>
+            <h2>Traveling in Japan</h2>
+            <details>
+            <iframe width="1200" height="480" src="https://www.youtube.com/embed/IuTDuvYr7f0"
+                title="How to Spend 14 Days in Japan  - A Japan Travel Itinerary" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </details>
+            </aside>
+        <aside>
+            <h2>Traveling in New York</h2>
+            <details>
+            <iframe  width="1200" height="480" src="https://www.youtube.com/embed/MtCMtC50gwY?si=yo919I3-FUNWjo3v"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </details>
+            </aside>
+        </div>
     </main>
 
     <footer>
@@ -43,4 +79,5 @@
 
     <script src="scripts/script.js"></script>
 </body>
+
 </html>
