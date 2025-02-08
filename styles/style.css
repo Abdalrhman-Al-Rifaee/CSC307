@@ -135,7 +135,9 @@ form button:hover {
 .cityM,
 .cityR {
     flex: 1;
-    text-align: center;
+    width: 33%;
+    font-size: 20px;
+    padding: 10px;
 }
 
 .cityL img,
@@ -155,10 +157,116 @@ form button:hover {
 
 .img-title:hover{
     color: black;
-font-size: larger;
+font-size: xx-large;
    text-transform: capitalize;
    font-style: italic;
    font-family: Georgia, 'Times New Roman', Times, serif;
  
    border-radius: 7px;
+}
+
+
+
+/*About us specific*/
+.center_part{
+    text-align: center;
+    background-color: antiquewhite;
+}
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+.travel_guide_vedio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+iframe{
+    border-radius: 10px;
+    
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+li{
+font-size: xx-large;
+}
+#team_div{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.center_part aside{
+   
+    text-align: left;
+    width:90%;
+}
+.center_part:nth-child(2) {
+    margin-bottom: 100px;
+}
+.tooltipText{
+    display: none;
+    color:blueviolet;
+    
+}
+.tooltip:hover .tooltipText{
+    display: contents;
+    opacity: 1;
+}
+
+@media (min-width: 1300px) and (max-width: 1600px){
+.center_part iframe {
+    width: 1200px;
+    height: 480px;
+}
+
+}
+@media (min-width: 1601px ) and (max-width: 1900px){
+.center_part iframe {
+        width: 1500px;
+        height: 580px;
+    }
+        #team_div {
+            width: 45%;
+        }
+}
+@media (min-width: 1901px) and (max-width: 2300px) {
+    .center_part iframe {
+        width: 1800px;
+        height: 680px;
+    }
+        #team_div {
+            width: 40%;
+        }
+}
+@media (min-width: 2301px) and (max-width: 2700px) {
+    .center_part iframe {
+            width: 2200px;
+            height: 780px;
+        }
+    #team_div {
+        width: 40%;
+    }
+}
+@media (min-width: 2701px) and (max-width: 3500px) {
+.center_part iframe {
+        width: 2600px;
+        height: 980px;
+    }
+#team_div {
+    width: 30%;
+}
+}
+@media (min-width: 3501px) {
+    .center_part iframe {
+            width: 3400px;
+            height: 1480px;
+        }
+    
+        #team_div {
+            width: 25%;
+        }
 }
